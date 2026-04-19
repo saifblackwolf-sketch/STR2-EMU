@@ -1,0 +1,18 @@
+received_at_utc: 2026-04-19T02:22:59.151827Z
+source: iPSX2
+client_timestamp: 2026-04-19T02:22:57Z
+client_log_path: /var/mobile/Containers/Data/Application/14B16386-28AB-4A72-8655-DDE3D67AB0CF/Documents/Data/Application/71BAC4CF-F5B6-42EE-BB22-F2EB12C160E4/Documents/pcsx2_log.txt
+[iPSX2 Debug Snapshot]
+EE=JIT IOP=JIT VU0=JIT VU1=JIT
+Log: /var/mobile/Containers/Data/Application/14B16386-28AB-4A72-8655-DDE3D67AB0CF/Documents/Data/Application/71BAC4CF-F5B6-42EE-BB22-F2EB12C160E4/Documents/pcsx2_log.txt
+---
+[0m[   48.5477] GameDB: Changing EE/FPU clamp mode [mode=3]
+[0m[   48.5477] GameDB: Changing VU0 clamp mode [mode=3]
+[0m[   48.5477] GameDB: Changing VU1 clamp mode [mode=3]
+[0m[   48.5477] GameDB: Enabled Gamefix: EETiming
+[0m[   48.5477] GameDB: Enabled GS Hardware Fix: autoFlush to [mode=2]
+[0m[   48.5477] GameDB: Enabled GS Hardware Fix: halfPixelOffset to [mode=4]
+[0m[   48.5477] GameDB: Enabled GS Hardware Fix: nativeScaling to [mode=1]
+[0m[   48.5477] GameDB: Enabled GS Hardware Fix: texturePreloading to [mode=0]
+[0m[   48.5477] GameDB: Enabled GS Hardware Fix: gpuPaletteConversion to [mode=1]
+[0m[  124.9062] Add 0 seconds play time to SCUS-97268 -> now 0

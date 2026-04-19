@@ -1,0 +1,10 @@
+received_at_utc: 2026-04-19T02:14:32.026727Z
+source: iPSX2
+client_timestamp: 2026-04-19T02:14:30Z
+client_log_path: /var/mobile/Containers/Data/Application/14B16386-28AB-4A72-8655-DDE3D67AB0CF/Documents/Data/Application/71BAC4CF-F5B6-42EE-BB22-F2EB12C160E4/Documents/pcsx2_log.txt
+[iPSX2 Debug Snapshot]
+EE=JIT IOP=JIT VU0=JIT VU1=JIT
+Log: /var/mobile/Containers/Data/Application/14B16386-28AB-4A72-8655-DDE3D67AB0CF/Documents/Data/Application/71BAC4CF-F5B6-42EE-BB22-F2EB12C160E4/Documents/pcsx2_log.txt
+---
+@@GAMEDB_OTA@@ sending conditional GET (ETag: W/"f6395b0b9e90797096dd0240107bde4dc927e61966d4614e7dc99a05b8762613")
+@@GAMEDB_OTA@@ 304 Not Modified — GameIndex.yaml is up to date
