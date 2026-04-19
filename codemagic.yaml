@@ -1,0 +1,28 @@
+workflows:
+  ios-simulator-build:
+    name: iOS Build Workflow
+    max_build_duration: 60
+    instance_type: mac_mini_m1
+    environment:
+      groups:
+        - apple_auth # إذا كان عندك شهادات تشفير، وإذا لا اتركها فارغة للتجميع التجريبي
+      vars:
+        XCODE_PROJECT: "iPSX2.xcodeproj" # تأكد من اسم ملف المشروع هنا
+        XCODE_SCHEME: "iPSX2"
+      xcode: latest
+      cocoapods: default
+    scripts:
+      - name: Install dependencies and CMake
+        script: | 
+          brew install cmake
+      - name: Build IPA
+        script: | 
+          xcode-project build-ipa \
+            --project "$XCODE_PROJECT" \
+            --scheme "$XCODE_SCHEME"
+    artifacts:
+      - build/ios/ipa/*.ipa
+    publishing:
+      email:
+        recipients:
+          - your-email@example.com # ضع إيميلك هنا لتصلك الروابط
